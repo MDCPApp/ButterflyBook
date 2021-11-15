@@ -24,14 +24,19 @@ Butterfly Book is an online collection of stories, pictures, videos, and other m
 
 **Required Must-have Stories**
 
-* User can switch tabs between feed and collection
-* User can post an image with caption
-* User can comment on a post
-* User can sign up 
-* User can stay logged in across restarts
-* User can logout
+- [x] User can switch tabs between feed and collection
+- [x]  User can post an image with caption
+- [x]  User can comment on a post
+- [x]  User can sign up 
+- [x]  User can stay logged in across restarts
+- [x]  User can logout
 * User can save profile to collection
-* User can view a feed of media
+- [x]  User can view a feed of media
+
+![ezgif com-gif-maker (14)](https://user-images.githubusercontent.com/60014887/141867690-346c2b66-dc45-4d22-8a30-619b7cf6bc49.gif)
+![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/60014887/141867710-9411ff75-e15e-4a07-b083-614e8c40c46e.gif)
+
+
 
 **Optional Nice-to-have Stories**
 
