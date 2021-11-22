@@ -74,6 +74,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         comment["post"] = selectedPost
         comment["author"] = PFUser.current()!
         
+        
         selectedPost.add(comment, forKey: "comments")
         
         selectedPost.saveInBackground { (success, error) in
@@ -114,6 +115,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
             cell.usernameLabel.text = user.username
             cell.captionLabel.text = post["caption"] as? String
+            cell.noloLabel.text = post["nolo"] as? String
         
             let imageFile = post["image"] as! PFFileObject
             let urlString = imageFile.url!

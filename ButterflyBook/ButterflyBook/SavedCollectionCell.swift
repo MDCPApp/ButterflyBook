@@ -6,8 +6,14 @@
 //
 
 import UIKit
+import Parse
+import AlamofireImage
 
 class SavedCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var profileView: UIImageView!
+    
+    
+    
+    
 }

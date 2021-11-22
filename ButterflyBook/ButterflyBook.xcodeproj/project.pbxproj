@@ -10,6 +10,7 @@
 		2602C499271642E80078E1E5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2602C498271642E80078E1E5 /* CommentCell.swift */; };
 		264655632742E46500820599 /* CollectionGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264655622742E46500820599 /* CollectionGridViewController.swift */; };
 		264655652742E9FC00820599 /* SavedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264655642742E9FC00820599 /* SavedCollectionCell.swift */; };
+		2651E7B527470B3800796E51 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2651E7B427470B3700796E51 /* ProfileViewController.swift */; };
 		2699CAC5270FBA6900C5A6D0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699CAC4270FBA6900C5A6D0 /* CameraViewController.swift */; };
 		2699CAC7270FCFF700C5A6D0 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699CAC6270FCFF700C5A6D0 /* PostCell.swift */; };
 		26A23798270F9D6200640C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A23797270F9D6200640C57 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 		2602C498271642E80078E1E5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		264655622742E46500820599 /* CollectionGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionGridViewController.swift; sourceTree = "<group>"; };
 		264655642742E9FC00820599 /* SavedCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCollectionCell.swift; sourceTree = "<group>"; };
+		2651E7B427470B3700796E51 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2699CAC4270FBA6900C5A6D0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2699CAC6270FCFF700C5A6D0 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		26A23794270F9D6200640C57 /* ButterflyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButterflyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,13 +83,14 @@
 				26A237A0270F9D6200640C57 /* Assets.xcassets */,
 				26A237A2270F9D6200640C57 /* LaunchScreen.storyboard */,
 				26A237A5270F9D6200640C57 /* Info.plist */,
-				26B7DE71270FA5D500CC38AB /* LoginViewController.swift */,
-				264655622742E46500820599 /* CollectionGridViewController.swift */,
-				264655642742E9FC00820599 /* SavedCollectionCell.swift */,
-				26B7DE73270FA5FB00CC38AB /* FeedViewController.swift */,
 				2699CAC4270FBA6900C5A6D0 /* CameraViewController.swift */,
-				2699CAC6270FCFF700C5A6D0 /* PostCell.swift */,
+				264655622742E46500820599 /* CollectionGridViewController.swift */,
 				2602C498271642E80078E1E5 /* CommentCell.swift */,
+				26B7DE73270FA5FB00CC38AB /* FeedViewController.swift */,
+				26B7DE71270FA5D500CC38AB /* LoginViewController.swift */,
+				2699CAC6270FCFF700C5A6D0 /* PostCell.swift */,
+				2651E7B427470B3700796E51 /* ProfileViewController.swift */,
+				264655642742E9FC00820599 /* SavedCollectionCell.swift */,
 			);
 			path = ButterflyBook;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				26B7DE72270FA5D500CC38AB /* LoginViewController.swift in Sources */,
 				264655652742E9FC00820599 /* SavedCollectionCell.swift in Sources */,
+				2651E7B527470B3800796E51 /* ProfileViewController.swift in Sources */,
 				2699CAC5270FBA6900C5A6D0 /* CameraViewController.swift in Sources */,
 				26A23798270F9D6200640C57 /* AppDelegate.swift in Sources */,
 				26B7DE74270FA5FB00CC38AB /* FeedViewController.swift in Sources */,

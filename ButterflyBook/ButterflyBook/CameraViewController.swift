@@ -13,8 +13,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
 
     
     @IBOutlet weak var imageView: UIImageView!
-    
     @IBOutlet weak var commentField: UITextField!
+    @IBOutlet weak var noloNameLabel: UILabel!
+    @IBOutlet weak var noloField: UITextField!
+    @IBOutlet weak var proPicLabel: UILabel!
+    @IBOutlet weak var bioLabel: UILabel!
     
     
     
@@ -30,11 +33,21 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         post["caption"] = commentField.text!
         post["author"] = PFUser.current()
+        post["nolo"] = noloField.text!
         
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)
         
         post["image"] = file
+        
+        //creating the nolo class in DB and adding fields proPic, bio, name, and author
+        let nolo = PFObject(className: "Nolo")
+        nolo["name"] = noloField.text!
+        nolo["proPic"] = file
+        nolo["author"] = PFUser.current()!
+        nolo["bio"] = commentField.text!
+        
+        
         
         post.saveInBackground { (success, error) in
             if success {
@@ -42,6 +55,16 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 print("saved!")
             } else {
                 print("error!")
+            }
+            
+        }
+        
+        nolo.saveInBackground { (success, error) in
+            if success {
+                self.dismiss(animated: true, completion: nil)
+                print("saved nolo!")
+            } else {
+                print("error with nolo!")
             }
             
         }
@@ -77,14 +100,6 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         dismiss(animated: true, completion: nil)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
