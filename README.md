@@ -42,9 +42,11 @@ Butterfly Book is an online collection of stories, pictures, videos, and other m
 
 * User can search for a profile
 - [x] User can access a profile from feed or collections
+- [x] User can view name and profile picture in profile
 * User can post on a profile
 
 ![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/60014887/142951461-9d828b78-fc81-4bb7-9d9f-5bf48dc06758.gif)
+![ezgif com-gif-maker (17)](https://user-images.githubusercontent.com/60014887/143932869-b111edf0-bce6-448b-bb99-e4d57925ce64.gif)
 
 
 ### 2. Screen Archetypes
