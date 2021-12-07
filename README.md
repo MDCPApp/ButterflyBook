@@ -25,13 +25,13 @@ Butterfly Book is an online collection of stories, pictures, videos, and other m
 **Required Must-have Stories**
 
 - [x] User can switch tabs between feed and collection
-- [x]  User can post an image with caption
-- [x]  User can comment on a post
-- [x]  User can sign up 
-- [x]  User can stay logged in across restarts
-- [x]  User can logout
-* User can save profile to collection
-- [x]  User can view a feed of media
+- [x] User can post an image with caption
+- [x] User can comment on a post
+- [x] User can sign up 
+- [x] User can stay logged in across restarts
+- [x] User can logout
+- [x] User can save profile to collection
+- [x] User can view a feed of media
 
 ![ezgif com-gif-maker (14)](https://user-images.githubusercontent.com/60014887/141867690-346c2b66-dc45-4d22-8a30-619b7cf6bc49.gif)
 ![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/60014887/141867710-9411ff75-e15e-4a07-b083-614e8c40c46e.gif)
@@ -45,7 +45,8 @@ Butterfly Book is an online collection of stories, pictures, videos, and other m
 - [x] User can view name and profile picture in profile
 * User can post on a profile
 
-![ezgif com-gif-maker (16)](https://user-images.githubusercontent.com/60014887/142951461-9d828b78-fc81-4bb7-9d9f-5bf48dc06758.gif)
+![ezgif com-gif-maker (18)](https://user-images.githubusercontent.com/60014887/144948321-d96ec5a0-470d-4276-8045-30796f5271a3.gif)
+
 ![ezgif com-gif-maker (17)](https://user-images.githubusercontent.com/60014887/143932869-b111edf0-bce6-448b-bb99-e4d57925ce64.gif)
 
 
